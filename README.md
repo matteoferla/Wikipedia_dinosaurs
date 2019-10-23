@@ -33,6 +33,9 @@ I considered other plots, such as circles with different sizes with the dinosaur
 
 But let's look at this graph.
 
+# Top 100
+See [Top 100 dinosaur table](./top100.md).
+
 
 # Bottom 3
 The most unloved cloned in Jurassic Park are very similar to other dinosaurs, so makes sense they are not as searched.
