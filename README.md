@@ -1,7 +1,7 @@
 # Wikipedia_dinosaurs
 What are the most popular dinosaurs on Wikipedia? Are they all from Jurassic Park? What era are they from?
 
-### Premise
+# Premise
 ## Pageviews = Popularity
 Wikipedia pageviews are taken here as a proxy for popularity, although there are a few caveats to that.
 
@@ -16,14 +16,14 @@ One thing to stress is causality, the dinosaurs cloned within the Jurassic Park 
 
 There are no protoceratops in JP and it gets 299 daily views, which is very low. As a kid I had a coffee cup with a protoceratops (no horn triceratops) on it from the Natural History Museum. So I'd say it was a popular dinosaur that lost prestige by not being cast in JP.
 
-![Distribution of dinosaur pageviews](dino_distro.jpg)
+![Distribution of dinosaur pageviews](./dino_distro.png)
 
 ## Excluded
 Also, not all species in JP were dinosaurs. The non-dinosaurs were goat (rest in peace),  Pteranodon (a pterosaur), Dimorphodon (a pterosaur), Mosasaurus (the fish-dino-thing in the tank in Jurassic World) and Homo sapiens.
 
 # Top 20
 
-![dino pictograph](dino_pictograph.png)
+![dino pictograph](./dino_pictograph.png)
 
 
 # Bottom 3
