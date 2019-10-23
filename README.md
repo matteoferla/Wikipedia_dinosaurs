@@ -2,6 +2,13 @@
 What are the most popular dinosaurs on Wikipedia? Are they all from Jurassic Park? What era are they from?
 
 # Premise
+## Methods
+I use pageviews and parse wikipedia templates and mine everything within a category.
+For more see [my blog post about it](https://blog.matteoferla.com/2019/07/wikipedia-datamining.html).
+
+Data was gathered from Wikipedia with Python3 (see Jupyter notebook) and data plotted with Python plotly, but with JavaScript injection to make pictographs. No photoshop or Illustrator used. The iOS Catalina update has destroyed my Adobe updater, which is needed to make Photoshop/Illustrator update as these do not work otherwise in Catalina &mdash;along with Mendeley, EndNote and a few dozen other programs.
+
+
 ## Pageviews = Popularity
 Wikipedia pageviews are taken here as a proxy for popularity, although there are a few caveats to that.
 
@@ -22,19 +29,25 @@ As expected the distribution of all dinosaur pages is a power law, while the JP 
 ## Excluded
 Also worth noting, not all species in JP were dinosaurs. The non-dinosaurs were goat (rest in peace),  Pteranodon (a pterosaur), Dimorphodon (a pterosaur), Mosasaurus (the fish-dino-thing in the tank in Jurassic World) and Homo sapiens.
 
-# Top 20
-
-
-![dino pictograph](./dino_pictograph.png)
-So I went silly with this graph: I really wanted a pictograph.
-I found [a really cute and consistent dino icon set in Flaticon](https://www.flaticon.com/packs/dinosaurs-9), but the 3,900 views of the top dinosaur made it an awkward number and I did not want to do 1 unit is 500 page views. So I just stuck with the single dinosaur.
-
-I considered other plots, such as circles with different sizes with the dinosaur in question inside, but that would have required tweaking in illustrator and iOS Catalina update has destroyed my Adobe updater, which is needed to make Photoshop/Illustrator update and work in Catalina...
-
-But let's look at this graph.
 
 # Top 100
+
 See [Top 100 dinosaur table](./top100.md).
+
+
+# Top 20
+
+![dino pictograph](./dino_pictograph.png)
+So I went silly with this graph: I really wanted a pictograph. I made a [blog post about Plotly pictographs](https://blog.matteoferla.com/2019/10/pictograms-with-plotly-and-fontawesome.html) last week, I was thinking I should do more...
+
+I found [a really cute and consistent dino icon set in Flaticon](https://www.flaticon.com/packs/dinosaurs-9), but the 3,900 views of the top dinosaur made it an awkward number and I did not want to do 1 unit is 500 page views. So I just stuck with the single dinosaur.
+
+I considered other plots, such as circles with different sizes with the dinosaur in question inside, but that would have required tweaking in Illustrator.
+But let's look at this graph.
+
+Positions 1 and 2 are as expected.
+
+[Spinosaurus](https://en.wikipedia.org/wiki/Spinosaurus) is a surprise &mdash;it's the dino with the sail which eats a mobile phone and its ominous presence is alerted with the Nokia classic ringtone.
 
 
 # Bottom 3
@@ -46,6 +59,17 @@ Then it is odd. As in forth-last is [Sinoceratops](https://en.wikipedia.org/wiki
 
 Of all dinosaurs, the data gets messy, _e.g._ Camptodontornis has a new article, while Montanoceratops cerorhynchos is a redirect to the more popular Montanoceratops, but at the lowest place are the birds [Ornithotarnocia](https://en.wikipedia.org/wiki/Ornithotarnocia) [Maaqwi](https://en.wikipedia.org/wiki/Maaqwi), with less than a visitor and a half per day. But these are stubs. Tragically, the curated and long article about family [Dictyoolithidae](https://en.wikipedia.org/wiki/Dictyoolithidae) is also par with them.
 
+## Cretaceous Park
+
+The Mesozoic era is divided into 3 periods. Triassic, Jurassic and Cretaceous.
+
+The era after the Mesozoic is the current one, the Cenozoic. An epoch (such as Pleistocene or Anthropocene) is a subdivision of a period.
+
+The era before the Mesozoic is the Paleozoic, whose last period was the Permian. A group arose in the Permian, called the archosaurs, and they gave rise to crocodiles and dinosaurs and stuff in the late Triassic. 
+
+So there are few Triassic dinosaurs. In fact, with the exception [Coelophysis](https://en.wikipedia.org/wiki/Coelophysis), the top 50 dinosaurs are all from the Cretaceous or the Jurassic.
+
+[dinosaur by period](./dino_era.png)
 
 # Part of a series
 I really like looking at what are the most popular X in Wikipedia based on page views.
@@ -54,9 +78,3 @@ They are really interesting and are unbiased unlike a Top 10 X from Buzzfeed lis
 For example, in my summary of the [Solar system](https://github.com/matteoferla/Wikipedia_Mars/blob/master/planets.png) the page about Pluto gets nearly as many views as Mars. Although, that is because some [Martian places](https://github.com/matteoferla/Wikipedia_Mars) and allied pages get loads more views.
 
 Often I get to find out about unexpected things. In the case of [stars](https://github.com/matteoferla/Wikipedia_star), there are more people in the Northern hemisphere and bright stars (in relative magnitude) are searched. Closeness to a lesser extent. But the stars invisible to the unaided eye with high daily views were the cool ones at the extremes of the laws of physics. In the case of [planes](https://github.com/matteoferla/Wikipedia_planes), there some expected trends (everyone loves fighter jets), but the low unit vehicles with high views were all new to me and very very weird.
-
-# See also
-I have written two blog posts relevant to this repo:
-* [Wikipedia template datamining](https://blog.matteoferla.com/2019/07/wikipedia-datamining.html)
-* [Plotly pictographs](https://blog.matteoferla.com/2019/10/pictograms-with-plotly-and-fontawesome.html)
-
