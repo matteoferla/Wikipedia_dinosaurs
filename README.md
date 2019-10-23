@@ -70,9 +70,9 @@ The era after the Mesozoic is the current one, the Cenozoic. An epoch (such as P
 
 The era before the Mesozoic is the Paleozoic, whose last period was the Permian. A group arose in the Permian, called the archosaurs, and they gave rise to crocodiles and dinosaurs and stuff in the late Triassic. 
 
-So there are few Triassic dinosaurs. In fact, with the exception [Coelophysis](https://en.wikipedia.org/wiki/Coelophysis), the top 50 dinosaurs are all from the Cretaceous or the Jurassic.
+So there are few Triassic dinosaurs. In fact, with the exception [Coelophysis](https://en.wikipedia.org/wiki/Coelophysis), the top 50 dinosaurs are all from the Cretaceous or the Jurassic and mostly from the Cretaceous.
 
-[dinosaur by period](./dino_era.png)
+![dinosaur by period](./dino_era.png)
 
 # Part of a series
 I really like looking at what are the most popular X in Wikipedia based on page views.
