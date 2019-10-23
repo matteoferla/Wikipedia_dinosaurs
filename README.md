@@ -55,5 +55,5 @@ Often I get to find out about unexpected things. In the case of [stars](https://
 # See also
 I have written two blog posts relevant to this repo:
 * [Wikipedia template datamining](https://blog.matteoferla.com/2019/07/wikipedia-datamining.html)
-* [https://blog.matteoferla.com/2019/10/pictograms-with-plotly-and-fontawesome.html](https://en.wikipedia.org/wiki/Mamenchisaurus)
+* [Plotly pictographs](https://blog.matteoferla.com/2019/10/pictograms-with-plotly-and-fontawesome.html)
 
