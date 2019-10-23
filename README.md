@@ -2,6 +2,9 @@
 What are the most popular dinosaurs on Wikipedia? Are they all from Jurassic Park? What era are they from?
 
 # Premise
+## Disclaimer
+I am a computational biochemist, not a palaeontologist. All I know about dinosaurs is from 4 grade and some googling just now. So I may state many incorrect facts!!
+
 ## Methods
 I use pageviews and parse wikipedia templates and mine everything within a category.
 For more see [my blog post about it](https://blog.matteoferla.com/2019/07/wikipedia-datamining.html).
