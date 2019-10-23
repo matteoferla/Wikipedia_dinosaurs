@@ -14,16 +14,24 @@ Well, everyone has seen Jurassic Park. So I would have predicted that all the mo
 
 One thing to stress is causality, the dinosaurs cloned within the Jurassic Park Universe  were iconic before the movie came out, hence why they were chosen. However, due to the movie they may have gotten more famous.
 
-There are no protoceratops in JP and it gets 299 daily views, which is very low. As a kid I had a coffee cup with a protoceratops (no horn triceratops) on it from the Natural History Museum. So I'd say it was a popular dinosaur that lost prestige by not being cast in JP.
+There are no protoceratops in JP and it gets 299 daily views, which is very low. As a kid I had a coffee cup with a protoceratops (no horn triceratops) on it from the Natural History Museum. So I'd say it _was_ a popular dinosaur that lost prestige by not being cast in JP.
+As expected the distribution of all dinosaur pages is a power law, while the JP dinos are the top outliers.
 
 ![Distribution of dinosaur pageviews](./dino_distro.png)
 
 ## Excluded
-Also, not all species in JP were dinosaurs. The non-dinosaurs were goat (rest in peace),  Pteranodon (a pterosaur), Dimorphodon (a pterosaur), Mosasaurus (the fish-dino-thing in the tank in Jurassic World) and Homo sapiens.
+Also worth noting, not all species in JP were dinosaurs. The non-dinosaurs were goat (rest in peace),  Pteranodon (a pterosaur), Dimorphodon (a pterosaur), Mosasaurus (the fish-dino-thing in the tank in Jurassic World) and Homo sapiens.
 
 # Top 20
 
+
 ![dino pictograph](./dino_pictograph.png)
+So I went silly with this graph: I really wanted a pictograph.
+I found [a really cute and consistent dino icon set in Flaticon](https://www.flaticon.com/packs/dinosaurs-9), but the 3,900 views of the top dinosaur made it an awkward number and I did not want to do 1 unit is 500 page views. So I just stuck with the single dinosaur.
+
+I considered other plots, such as circles with different sizes with the dinosaur in question inside, but that would have required tweaking in illustrator and iOS Catalina update has destroyed my Adobe updater, which is needed to make Photoshop/Illustrator update and work in Catalina...
+
+But let's look at this graph.
 
 
 # Bottom 3
